@@ -1,0 +1,315 @@
+html {
+    }
+    
+@font-face {
+    
+    font-family: Dubiel;
+	src: url('Dubiel.ttf');
+}
+
+
+body {
+    background-color: Gray;
+    font-family: "Dubiel";
+    color: Gray;
+    }
+	
+h1 a {
+    color: Gray;
+    text-decoration: none;
+}
+
+
+
+
+
+@media all and (min-width: 1220px) {
+
+
+
+
+
+
+	
+#container {
+    position: relative;
+    /*border: 1px black solid;*/
+    display: block;
+    border-radius: 5px;
+    background: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width:75%;
+    max-width: 920px;
+    padding: 10px 10px 10px 10px;
+	
+}
+
+#titleBox {
+	margin-bottom: 10px;
+	border: 1px black solid;
+	border-radius: 5px;
+	/*position: relative;*/
+	background: white;
+	width: auto;
+	height: 75px;
+	padding-left: 20px;
+	}
+
+#map_canvas {
+    height: 550px;
+    width: 600px;
+    position: relative;
+    float: left;
+    /*display: inline-block;*/
+    border: 1px black solid;
+    border-radius: 5px;
+    
+    }
+
+
+#sidePanel {
+    position: relative;
+    background: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    
+    height: 550px;
+    width: 255px;
+    padding: 0px 20px 0px 25px;
+    float: right;
+    overflow: hidden;
+    
+    }
+
+.button {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    border: 1px black solid;
+    border-radius: 5px 5px 5px 5px;
+    display: inline;
+    margin: 10px 10px 10px 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+.button:hover {
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
+
+#miniMap {
+    border: 1px black solid;
+    border-radius: 5px;
+    position: relative;
+    height: 227px;
+    width: 230px;
+    margin: 15px 0px 15px 0px;  
+}
+
+#socialNet {
+    margin-top: 20px;
+}
+
+#comments {
+    width: auto;
+    position: relative;
+    background: white;
+    margin-top: 5px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+}
+
+#comment {
+    resize: none;
+    width: 305px;
+}
+
+.comment {
+    width: auto;
+    background: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    margin: 5px 0px 5px 0px;
+}
+
+.name {
+    color: blue;
+}
+
+.time {
+    color: black;
+}
+
+#name {
+    width: 300px;
+}
+
+#email {
+    width: 300px;
+}
+
+}
+
+@media all and (max-width: 1219px) {
+
+#container{
+	max-width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+   
+}
+#titleBox {
+	margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+	border: 1px black solid;
+	border-radius: 5px;
+	position: relative;
+	background: white;
+	width: auto;
+	height: 60px;
+	padding: 0px 0px 15px 20px;
+	}
+
+#map_canvas {
+    height: 300px;
+    width: auto;
+    top: 0px;
+    left: 0px;
+    margin: 10px 10px 10px 10px;
+    border: 1px black solid;
+    border-radius: 5px
+    }
+
+
+#sidePanel {
+    position: relative;
+    background: white;
+    border: 1px black solid;
+    width: auto;
+    height: 500px;
+    margin-top: 5px; 
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+    }
+
+.button {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    border: 1px black solid;
+    border-radius: 5px 5px 5px 5px;
+    display: inline;
+    margin: 10px 10px 10px 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+.button:hover {
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+}
+
+/*
+#refresh {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+*/
+#miniMap {
+    border: 1px black solid;
+    position: relative;
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#currentPos {
+    position: relative;
+    border: 1px black solid;
+    margin: 5px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+#socialNet {
+	margin-top: 20px;
+}
+
+/*
+#longitude {
+    width: 50px;
+}
+
+#latitude {
+    width: 50px;
+}
+
+#location {
+    width: 50px;
+}
+
+#refresh {
+    float: center;
+}
+
+#findMe {
+    float: center;
+}*/
+
+#comments {
+    width: auto;
+    position: relative;
+    background: white;
+    margin-top: 5px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    /*max-width: 620px;*/
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+#comment {
+    resize: none;
+    width: 200px;
+}
+
+.comment {
+    width: auto;
+    background: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 5px 5px 5px;
+}
+
+.name {
+    color: blue;
+}
+
+.time {
+    color: black;
+}
+
+#name {
+    width: 200px;
+}
+
+#email {
+    width: 200px;
+}
+
+}
